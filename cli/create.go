@@ -12,10 +12,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kata-containers/runtime/pkg/katautils"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/compatoci"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/compatoci"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
 	"github.com/urfave/cli"
 )
 

@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"testing"
 
-	ktu "github.com/kata-containers/runtime/pkg/katatestutils"
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/device/drivers"
+	ktu "github.com/hfyeh/runtime/pkg/katatestutils"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/device/drivers"
 	"github.com/stretchr/testify/assert"
 
 	"golang.org/x/sys/unix"

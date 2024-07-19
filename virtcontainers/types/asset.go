@@ -12,7 +12,7 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
 )
 
 // AssetType describe a type of assets.

@@ -13,8 +13,8 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/kata-containers/runtime/pkg/katautils"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
 	"github.com/urfave/cli"
 )
 

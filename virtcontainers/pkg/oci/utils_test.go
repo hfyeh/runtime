@@ -22,11 +22,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sys/unix"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	vcAnnotations "github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/compatoci"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	vcAnnotations "github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/compatoci"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 const (

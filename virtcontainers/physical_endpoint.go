@@ -12,10 +12,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/device/drivers"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/cgroups"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/device/drivers"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/cgroups"
 	"github.com/safchain/ethtool"
 )
 

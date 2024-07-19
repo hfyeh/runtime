@@ -15,13 +15,13 @@ import (
 	"syscall"
 	"testing"
 
-	ktu "github.com/kata-containers/runtime/pkg/katatestutils"
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/device/drivers"
-	"github.com/kata-containers/runtime/virtcontainers/device/manager"
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	ktu "github.com/hfyeh/runtime/pkg/katatestutils"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/device/drivers"
+	"github.com/hfyeh/runtime/virtcontainers/device/manager"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/stretchr/testify/assert"
 )
 

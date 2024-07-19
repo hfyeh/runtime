@@ -8,8 +8,8 @@ package base
 import (
 	"context"
 
-	pb "github.com/kata-containers/runtime/protocols/cache"
-	vc "github.com/kata-containers/runtime/virtcontainers"
+	pb "github.com/hfyeh/runtime/protocols/cache"
+	vc "github.com/hfyeh/runtime/virtcontainers"
 )
 
 // FactoryBase is vm factory's internal base factory interfaces.

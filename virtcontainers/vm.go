@@ -13,10 +13,10 @@ import (
 	"path/filepath"
 	"time"
 
-	pb "github.com/kata-containers/runtime/protocols/cache"
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/uuid"
+	pb "github.com/hfyeh/runtime/protocols/cache"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/uuid"
 	"github.com/sirupsen/logrus"
 )
 

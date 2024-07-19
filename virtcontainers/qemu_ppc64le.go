@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/sirupsen/logrus"
 )
 

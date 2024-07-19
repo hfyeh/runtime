@@ -11,8 +11,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/persist/fs"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/persist/fs"
 )
 
 func TestTemplateFactory(t *testing.T) {

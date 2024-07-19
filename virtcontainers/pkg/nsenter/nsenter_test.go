@@ -19,7 +19,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sys/unix"
 
-	ktu "github.com/kata-containers/runtime/pkg/katatestutils"
+	ktu "github.com/hfyeh/runtime/pkg/katatestutils"
 )
 
 const testPID = 12345

@@ -9,9 +9,9 @@ package drivers
 import (
 	"fmt"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
 )
 
 // GenericDevice refers to a device that is neither a VFIO device, block device or VhostUserDevice.

@@ -21,16 +21,16 @@ import (
 	"syscall"
 	"time"
 
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	chclient "github.com/kata-containers/runtime/virtcontainers/pkg/cloud-hypervisor/client"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	chclient "github.com/hfyeh/runtime/virtcontainers/pkg/cloud-hypervisor/client"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/types"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 )
 
 //

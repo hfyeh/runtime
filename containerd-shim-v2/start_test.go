@@ -13,9 +13,9 @@ import (
 	"github.com/containerd/containerd/namespaces"
 	taskAPI "github.com/containerd/containerd/runtime/v2/task"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	vcAnnotations "github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/vcmock"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	vcAnnotations "github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/vcmock"
 
 	"github.com/stretchr/testify/assert"
 )

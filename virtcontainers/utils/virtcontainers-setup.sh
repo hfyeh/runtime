@@ -64,8 +64,8 @@ pushd plugins
 git checkout 7f98c94613021d8b57acfa1a2f0c8d0f6fd7ae5a
 
 echo "Copy CNI config files"
-cp $GOPATH/src/github.com/kata-containers/runtime/virtcontainers/test/cni/10-mynet.conf ${ETCDIR}/cni/net.d/
-cp $GOPATH/src/github.com/kata-containers/runtime/virtcontainers/test/cni/99-loopback.conf ${ETCDIR}/cni/net.d/
+cp $GOPATH/src/github.com/hfyeh/runtime/virtcontainers/test/cni/10-mynet.conf ${ETCDIR}/cni/net.d/
+cp $GOPATH/src/github.com/hfyeh/runtime/virtcontainers/test/cni/99-loopback.conf ${ETCDIR}/cni/net.d/
 
 ./build.sh
 cp ./bin/bridge ${TMPDIR}/cni/bin/cni-bridge

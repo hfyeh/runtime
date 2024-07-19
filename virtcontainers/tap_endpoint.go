@@ -11,8 +11,8 @@ import (
 	"github.com/containernetworking/plugins/pkg/ns"
 	"github.com/vishvananda/netlink"
 
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/uuid"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/uuid"
 )
 
 // TapEndpoint represents just a tap endpoint

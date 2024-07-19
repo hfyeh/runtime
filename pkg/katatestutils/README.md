@@ -11,7 +11,7 @@
     * [Full details](#full-details)
 
 This package provides a small set of test utilities. See the
-[GoDoc](https://godoc.org/github.com/kata-containers/runtime/pkg/katatestutils)
+[GoDoc](https://godoc.org/github.com/hfyeh/runtime/pkg/katatestutils)
 for full details.
 
 ## Test Constraints
@@ -76,7 +76,7 @@ checking is performed on the issue but if specified, it will be added to the
 displayed:
 
 ```go
-if tc.NotValid(WithIssue("https://github.com/kata-containers/runtime/issues/1586"), ...) {
+if tc.NotValid(WithIssue("https://github.com/hfyeh/runtime/issues/1586"), ...) {
     t.Skipf("skipping test as requirements not met: %v", tc)
 }
 ```
@@ -175,4 +175,4 @@ func TestOldKernelVersion(t *testing.T) {
 ### Full details
 
 The public API is shown in [`constraints_api.go`](constraints_api.go) or
-the [GoDoc](https://godoc.org/github.com/kata-containers/runtime/pkg/katatestutils).
+the [GoDoc](https://godoc.org/github.com/hfyeh/runtime/pkg/katatestutils).

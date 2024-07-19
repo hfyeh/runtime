@@ -114,7 +114,7 @@ assets:
     description: |
       Root filesystem disk image used to boot the guest virtual
       machine.
-    url: "https://github.com/kata-containers/osbuilder"
+    url: "https://github.com/hfyeh/osbuilder"
     architecture:
       aarch64:
         name: "ubuntu"
@@ -135,7 +135,7 @@ assets:
     description: |
       Root filesystem initrd used to boot the guest virtual
       machine.
-    url: "https://github.com/kata-containers/osbuilder"
+    url: "https://github.com/hfyeh/osbuilder"
     architecture:
       aarch64:
         name: &default-initrd-name "alpine"
@@ -169,7 +169,7 @@ components:
     description: |
       Container management service running in the guest virtual machines
       root context.
-    url: "https://github.com/kata-containers/agent"
+    url: "https://github.com/hfyeh/agent"
     commit: "6f6e9ecd8aded0783c31968b304a9d6589114363"
 
 externals:

@@ -13,9 +13,9 @@ import (
 	"strconv"
 	"strings"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	vf "github.com/kata-containers/runtime/virtcontainers/factory"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	vf "github.com/hfyeh/runtime/virtcontainers/factory"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 )
 

@@ -14,9 +14,9 @@ import (
 	"os"
 	"syscall"
 
-	"github.com/kata-containers/runtime/pkg/katautils"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/urfave/cli"

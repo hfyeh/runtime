@@ -12,8 +12,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	ktu "github.com/kata-containers/runtime/pkg/katatestutils"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	ktu "github.com/hfyeh/runtime/pkg/katatestutils"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/stretchr/testify/assert"
 )
 

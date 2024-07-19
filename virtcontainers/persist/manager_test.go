@@ -10,8 +10,8 @@ import (
 	"os"
 	"testing"
 
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/persist/fs"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/persist/fs"
 	"github.com/stretchr/testify/assert"
 )
 

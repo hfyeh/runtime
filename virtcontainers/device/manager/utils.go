@@ -15,8 +15,8 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/device/drivers"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/device/drivers"
 )
 
 const (

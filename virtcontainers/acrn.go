@@ -21,11 +21,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/uuid"
-	"github.com/kata-containers/runtime/virtcontainers/types"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/uuid"
+	"github.com/hfyeh/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 )
 
 // Since ACRN is using the store in a quite abnormal way, let's first draw it back from store to here
@@ -105,7 +105,7 @@ const acrnDevice = "/dev/acrn_vhm"
 // Due to this several macros are not defined in Linux headers.
 // Until the support is available, directly use the value instead
 // of macros.
-//https://github.com/kata-containers/runtime/issues/1784
+//https://github.com/hfyeh/runtime/issues/1784
 const ioctl_ACRN_GET_PLATFORM_INFO = 0x43000003 //nolint
 
 const (

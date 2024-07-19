@@ -6,7 +6,7 @@
 package types
 
 import (
-	"github.com/kata-containers/runtime/virtcontainers/pkg/firecracker/client/models"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/firecracker/client/models"
 )
 
 type FcConfig struct {

@@ -421,7 +421,7 @@
 
 [[projects]]
   digest = "1:f03425555be45830e86903bba35dd82a1b76e322beff9873e6b888d2b054c217"
-  name = "github.com/kata-containers/agent"
+  name = "github.com/hfyeh/agent"
   packages = [
     "pkg/types",
     "protocols/client",
@@ -432,7 +432,7 @@
 
 [[projects]]
   digest = "1:168ed421445ef3bf865d9ea9c2d87aa6b5114f01c885c4c33f0d2d12a9dffa4a"
-  name = "github.com/kata-containers/govmm"
+  name = "github.com/hfyeh/govmm"
   packages = ["qemu"]
   pruneopts = "NUT"
   revision = "7d320e8f5dcad260c1723bda3bff21539750d51f"
@@ -821,10 +821,10 @@
     "github.com/gogo/protobuf/proto",
     "github.com/gogo/protobuf/types",
     "github.com/hashicorp/go-multierror",
-    "github.com/kata-containers/agent/pkg/types",
-    "github.com/kata-containers/agent/protocols/client",
-    "github.com/kata-containers/agent/protocols/grpc",
-    "github.com/kata-containers/govmm/qemu",
+    "github.com/hfyeh/agent/pkg/types",
+    "github.com/hfyeh/agent/protocols/client",
+    "github.com/hfyeh/agent/protocols/grpc",
+    "github.com/hfyeh/govmm/qemu",
     "github.com/mitchellh/mapstructure",
     "github.com/opencontainers/runc/libcontainer/cgroups",
     "github.com/opencontainers/runc/libcontainer/cgroups/fs",

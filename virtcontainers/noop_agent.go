@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/kata-containers/agent/protocols/grpc"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	vcTypes "github.com/kata-containers/runtime/virtcontainers/pkg/types"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/agent/protocols/grpc"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	vcTypes "github.com/hfyeh/runtime/virtcontainers/pkg/types"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"golang.org/x/net/context"
 )

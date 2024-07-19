@@ -7,7 +7,7 @@ package main
 
 import (
 	"fmt"
-	vcUtils "github.com/kata-containers/runtime/virtcontainers/utils"
+	vcUtils "github.com/hfyeh/runtime/virtcontainers/utils"
 	"path/filepath"
 	goruntime "runtime"
 )

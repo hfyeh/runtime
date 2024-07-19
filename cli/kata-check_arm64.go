@@ -8,7 +8,7 @@ package main
 import (
 	"fmt"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
+	vc "github.com/hfyeh/runtime/virtcontainers"
 	"github.com/sirupsen/logrus"
 )
 

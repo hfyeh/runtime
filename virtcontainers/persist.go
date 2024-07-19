@@ -9,12 +9,12 @@ import (
 	"context"
 	"errors"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	exp "github.com/kata-containers/runtime/virtcontainers/experimental"
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/store"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	exp "github.com/hfyeh/runtime/virtcontainers/experimental"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/store"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/mitchellh/mapstructure"
 )
 

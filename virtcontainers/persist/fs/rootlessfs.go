@@ -10,7 +10,7 @@ import (
 	"os"
 	"path/filepath"
 
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
 )
 
 // default xdg runtime directory just in case XDG_RUNTIME_DIR is not set

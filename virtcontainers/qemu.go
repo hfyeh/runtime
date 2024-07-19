@@ -24,18 +24,18 @@ import (
 	"time"
 	"unsafe"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
 	"github.com/opencontainers/selinux/go-selinux/label"
 	"github.com/opentracing/opentracing-go"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"golang.org/x/sys/unix"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/uuid"
-	"github.com/kata-containers/runtime/virtcontainers/types"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/uuid"
+	"github.com/hfyeh/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 )
 
 // romFile is the file name of the ROM that can be used for virtio-pci devices.
@@ -2075,7 +2075,7 @@ func calcHotplugMemMiBSize(mem uint32, memorySectionSizeMB uint32) (uint32, erro
 		return mem, nil
 	}
 
-	// TODO: hot add memory aligned to memory section should be more properly. See https://github.com/kata-containers/runtime/pull/624#issuecomment-419656853
+	// TODO: hot add memory aligned to memory section should be more properly. See https://github.com/hfyeh/runtime/pull/624#issuecomment-419656853
 	return uint32(math.Ceil(float64(mem)/float64(memorySectionSizeMB))) * memorySectionSizeMB, nil
 }
 

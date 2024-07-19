@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 	"github.com/stretchr/testify/assert"
 )
 

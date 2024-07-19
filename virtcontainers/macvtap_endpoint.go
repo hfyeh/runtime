@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"os"
 
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
 )
 
 // MacvtapEndpoint represents a macvtap endpoint

@@ -14,12 +14,12 @@ import (
 	"strings"
 
 	"github.com/BurntSushi/toml"
-	govmmQemu "github.com/kata-containers/govmm/qemu"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	exp "github.com/kata-containers/runtime/virtcontainers/experimental"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	exp "github.com/hfyeh/runtime/virtcontainers/experimental"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 	"github.com/sirupsen/logrus"
 )
 

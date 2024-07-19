@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/kata-containers/runtime.svg?branch=master)](https://travis-ci.org/kata-containers/runtime)
 [![Build Status](http://jenkins.katacontainers.io/job/kata-containers-runtime-ubuntu-18-04-master/badge/icon)](http://jenkins.katacontainers.io/job/kata-containers-runtime-ubuntu-18-04-master/)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kata-containers/runtime)](https://goreportcard.com/report/github.com/kata-containers/runtime)
-[![GoDoc](https://godoc.org/github.com/kata-containers/runtime?status.svg)](https://godoc.org/github.com/kata-containers/runtime)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hfyeh/runtime)](https://goreportcard.com/report/github.com/hfyeh/runtime)
+[![GoDoc](https://godoc.org/github.com/hfyeh/runtime?status.svg)](https://godoc.org/github.com/hfyeh/runtime)
 
 # Runtime
 
@@ -9,7 +9,7 @@ This repository contains the runtime for the
 [Kata Containers](https://github.com/kata-containers) project.
 
 For details of the other Kata Containers repositories, see the
-[repository summary](https://github.com/kata-containers/kata-containers).
+[repository summary](https://github.com/hfyeh/kata-containers).
 
 * [Introduction](#introduction)
 * [License](#license)
@@ -82,17 +82,17 @@ $ kata-runtime kata-check
 
 [![Get it from the Snap Store](https://snapcraft.io/static/images/badges/en/snap-store-black.svg)](https://snapcraft.io/kata-containers)
 
-See the [installation guides](https://github.com/kata-containers/documentation/tree/master/install/README.md)
+See the [installation guides](https://github.com/hfyeh/documentation/tree/master/install/README.md)
 available for various operating systems.
 
 ## Quick start for developers
 
 See the
-[developer guide](https://github.com/kata-containers/documentation/blob/master/Developer-Guide.md).
+[developer guide](https://github.com/hfyeh/documentation/blob/master/Developer-Guide.md).
 
 ## Architecture overview
 
-See the [architecture overview](https://github.com/kata-containers/documentation/blob/master/design/architecture.md)
+See the [architecture overview](https://github.com/hfyeh/documentation/blob/master/design/architecture.md)
 for details on the Kata Containers design.
 
 ## Configuration
@@ -142,7 +142,7 @@ $ kata-runtime kata-env
 
 For detailed information and analysis on obtaining logs for other system
 components, see the documentation for the
-[`kata-log-parser`](https://github.com/kata-containers/tests/tree/master/cmd/log-parser)
+[`kata-log-parser`](https://github.com/hfyeh/tests/tree/master/cmd/log-parser)
 tool.
 
 For runtime logs, see the following sections for the CRI-O and containerd shimv2 based runtimes.
@@ -174,28 +174,28 @@ $ sudo journalctl -t kata
 ## Debugging
 
 See the
-[debugging section of the developer guide](https://github.com/kata-containers/documentation/blob/master/Developer-Guide.md#troubleshoot-kata-containers).
+[debugging section of the developer guide](https://github.com/hfyeh/documentation/blob/master/Developer-Guide.md#troubleshoot-kata-containers).
 
 ## Limitations
 
 See the
-[limitations file](https://github.com/kata-containers/documentation/blob/master/Limitations.md)
+[limitations file](https://github.com/hfyeh/documentation/blob/master/Limitations.md)
 for further details.
 
 ## Community
 
-See [the community repository](https://github.com/kata-containers/community).
+See [the community repository](https://github.com/hfyeh/community).
 
 ### Contact
 
-See [how to reach the community](https://github.com/kata-containers/community/blob/master/CONTRIBUTING.md#contact).
+See [how to reach the community](https://github.com/hfyeh/community/blob/master/CONTRIBUTING.md#contact).
 
 ## Further information
 
 See the
-[project table of contents](https://github.com/kata-containers/kata-containers)
+[project table of contents](https://github.com/hfyeh/kata-containers)
 and the
-[documentation repository](https://github.com/kata-containers/documentation).
+[documentation repository](https://github.com/hfyeh/documentation).
 
 ## Additional packages
 

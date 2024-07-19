@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"time"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 type qemuS390x struct {
@@ -155,7 +155,7 @@ func (q *qemuS390x) appendCCWBlockDevice(devices []govmmQemu.Device, drive confi
 }
 
 // appendVhostUserDevice throws an error if vhost devices are tried to be used.
-// See issue https://github.com/kata-containers/runtime/issues/659
+// See issue https://github.com/hfyeh/runtime/issues/659
 func (q *qemuS390x) appendVhostUserDevice(devices []govmmQemu.Device, attr config.VhostUserDeviceAttrs) ([]govmmQemu.Device, error) {
 	return nil, fmt.Errorf("No vhost-user devices supported on s390x")
 }

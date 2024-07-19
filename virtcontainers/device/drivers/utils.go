@@ -13,8 +13,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
 	"github.com/sirupsen/logrus"
 )
 

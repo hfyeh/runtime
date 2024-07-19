@@ -20,12 +20,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli"
 
-	ktu "github.com/kata-containers/runtime/pkg/katatestutils"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	vcAnnotations "github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/compatoci"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/vcmock"
+	ktu "github.com/hfyeh/runtime/pkg/katatestutils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	vcAnnotations "github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/compatoci"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/vcmock"
 )
 
 func TestRunCliAction(t *testing.T) {

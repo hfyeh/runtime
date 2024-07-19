@@ -11,10 +11,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/device/drivers"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/device/drivers"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 // VCStorePrefix is only used for tests to config a temp store dir

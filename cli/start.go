@@ -10,10 +10,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/kata-containers/runtime/pkg/katautils"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	vcAnnot "github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	vcAnnot "github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

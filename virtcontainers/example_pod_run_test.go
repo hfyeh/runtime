@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"strings"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 var containerRootfs = vc.RootFs{Target: "/var/lib/container/bundle/", Mounted: true}

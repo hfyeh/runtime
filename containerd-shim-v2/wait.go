@@ -14,8 +14,8 @@ import (
 	"github.com/containerd/containerd/api/events"
 	"github.com/containerd/containerd/api/types/task"
 	"github.com/containerd/containerd/mount"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
 	"github.com/sirupsen/logrus"
 	"google.golang.org/grpc/codes"
 )

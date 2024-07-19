@@ -19,9 +19,9 @@ import (
 
 	"github.com/urfave/cli"
 
-	"github.com/kata-containers/runtime/pkg/katautils"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	oci "github.com/kata-containers/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	oci "github.com/hfyeh/runtime/virtcontainers/pkg/oci"
 )
 
 const formatOptions = `table or json`

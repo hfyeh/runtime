@@ -47,11 +47,11 @@
   revision = "v1.4.2"
 
 [[constraint]]
-  name = "github.com/kata-containers/govmm"
+  name = "github.com/hfyeh/govmm"
   revision = "7d320e8f5dcad260c1723bda3bff21539750d51f"
 
 [[constraint]]
-  name = "github.com/kata-containers/agent"
+  name = "github.com/hfyeh/agent"
   revision = "e921aa3d0fa39cbd7933c15bd6ae7f0a1d7ab757"
 
 [[constraint]]

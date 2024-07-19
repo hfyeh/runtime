@@ -13,12 +13,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/persist/fs"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/persist/fs"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/pkg/errors"
 )
 

@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	ns "github.com/kata-containers/runtime/virtcontainers/pkg/nsenter"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	ns "github.com/hfyeh/runtime/virtcontainers/pkg/nsenter"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/mitchellh/mapstructure"
 	"github.com/sirupsen/logrus"
 )

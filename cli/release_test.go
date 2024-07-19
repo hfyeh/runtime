@@ -107,8 +107,8 @@ func TestGetReleaseURLEnvVar(t *testing.T) {
 		{"", false, expectedReleasesURL},
 		{"http://google.com", true, ""},
 		{"https://katacontainers.io", true, ""},
-		{"https://github.com/kata-containers/runtime/releases/latest", true, ""},
-		{"https://github.com/kata-containers/kata-containers/releases/latest", true, ""},
+		{"https://github.com/hfyeh/runtime/releases/latest", true, ""},
+		{"https://github.com/hfyeh/kata-containers/releases/latest", true, ""},
 		{expectedReleasesURL, false, expectedReleasesURL},
 	}
 
@@ -150,7 +150,7 @@ func TestMakeRelease(t *testing.T) {
 	testDate := "2020-09-01T22:10:44Z"
 	testRelVersion := "1.2.3"
 	testFilename := "kata-static-1.12.0-alpha1-x86_64.tar.xz"
-	testURL := fmt.Sprintf("https://github.com/kata-containers/runtime/releases/download/%s/%s", testRelVersion, testFilename)
+	testURL := fmt.Sprintf("https://github.com/hfyeh/runtime/releases/download/%s/%s", testRelVersion, testFilename)
 
 	testSemver, err := semver.Make(testRelVersion)
 	assert.NoError(err)
@@ -299,8 +299,8 @@ func TestDownloadURLIsValid(t *testing.T) {
 		expectError bool
 	}
 
-	validKata1xDownload := "https://github.com/kata-containers/runtime/releases/download/1.12.0-alpha1/kata-static-1.12.0-alpha1-x86_64.tar.xz"
-	validKata2xDownload := "https://github.com/kata-containers/kata-containers/releases/download/2.0.0-alpha3/kata-static-2.0.0-alpha3-x86_64.tar.xz"
+	validKata1xDownload := "https://github.com/hfyeh/runtime/releases/download/1.12.0-alpha1/kata-static-1.12.0-alpha1-x86_64.tar.xz"
+	validKata2xDownload := "https://github.com/hfyeh/kata-containers/releases/download/2.0.0-alpha3/kata-static-2.0.0-alpha3-x86_64.tar.xz"
 
 	data := []testData{
 		{"", true},

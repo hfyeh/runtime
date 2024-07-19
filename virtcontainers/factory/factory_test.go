@@ -10,10 +10,10 @@ import (
 	"os"
 	"testing"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/factory/base"
-	"github.com/kata-containers/runtime/virtcontainers/persist/fs"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/factory/base"
+	"github.com/hfyeh/runtime/virtcontainers/persist/fs"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 )

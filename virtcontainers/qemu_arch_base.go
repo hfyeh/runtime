@@ -14,11 +14,11 @@ import (
 	"strconv"
 	"strings"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/types"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 )
 
 type qemuArch interface {

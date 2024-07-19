@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/kata-containers/runtime/pkg/katautils"
-	vc "github.com/kata-containers/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
 	"github.com/sirupsen/logrus"
 )
 

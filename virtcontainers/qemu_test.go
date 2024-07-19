@@ -14,11 +14,11 @@ import (
 	"strings"
 	"testing"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	"github.com/kata-containers/runtime/virtcontainers/types"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	"github.com/hfyeh/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

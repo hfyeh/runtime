@@ -17,13 +17,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/kata-containers/runtime/pkg/katautils"
-	"github.com/kata-containers/runtime/pkg/signals"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	exp "github.com/kata-containers/runtime/virtcontainers/experimental"
-	vf "github.com/kata-containers/runtime/virtcontainers/factory"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/rootless"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	"github.com/hfyeh/runtime/pkg/signals"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	exp "github.com/hfyeh/runtime/virtcontainers/experimental"
+	vf "github.com/hfyeh/runtime/virtcontainers/factory"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/rootless"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/sirupsen/logrus"
@@ -282,7 +282,7 @@ func beforeSubcommands(c *cli.Context) error {
 		rootless.SetRootless(*r)
 	}
 	// Support --systed-cgroup
-	// Issue: https://github.com/kata-containers/runtime/issues/2428
+	// Issue: https://github.com/hfyeh/runtime/issues/2428
 
 	ignoreConfigLogs := false
 	var traceRootSpan string

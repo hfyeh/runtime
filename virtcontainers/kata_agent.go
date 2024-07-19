@@ -19,20 +19,20 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	aTypes "github.com/kata-containers/agent/pkg/types"
-	kataclient "github.com/kata-containers/agent/protocols/client"
-	"github.com/kata-containers/agent/protocols/grpc"
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	vcAnnotations "github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
-	vccgroups "github.com/kata-containers/runtime/virtcontainers/pkg/cgroups"
-	ns "github.com/kata-containers/runtime/virtcontainers/pkg/nsenter"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/rootless"
-	vcTypes "github.com/kata-containers/runtime/virtcontainers/pkg/types"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/uuid"
-	"github.com/kata-containers/runtime/virtcontainers/store"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	aTypes "github.com/hfyeh/agent/pkg/types"
+	kataclient "github.com/hfyeh/agent/protocols/client"
+	"github.com/hfyeh/agent/protocols/grpc"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	vcAnnotations "github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
+	vccgroups "github.com/hfyeh/runtime/virtcontainers/pkg/cgroups"
+	ns "github.com/hfyeh/runtime/virtcontainers/pkg/nsenter"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/rootless"
+	vcTypes "github.com/hfyeh/runtime/virtcontainers/pkg/types"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/uuid"
+	"github.com/hfyeh/runtime/virtcontainers/store"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/opencontainers/runtime-spec/specs-go"
 	opentracing "github.com/opentracing/opentracing-go"
 	"github.com/sirupsen/logrus"
@@ -1109,8 +1109,8 @@ func (k *kataAgent) constraintGRPCSpec(grpcSpec *grpc.Spec, passSeccomp bool) {
 	}
 
 	// By now only CPU constraints are supported
-	// Issue: https://github.com/kata-containers/runtime/issues/158
-	// Issue: https://github.com/kata-containers/runtime/issues/204
+	// Issue: https://github.com/hfyeh/runtime/issues/158
+	// Issue: https://github.com/hfyeh/runtime/issues/204
 	grpcSpec.Linux.Resources.Devices = nil
 	grpcSpec.Linux.Resources.Pids = nil
 	grpcSpec.Linux.Resources.BlockIO = nil

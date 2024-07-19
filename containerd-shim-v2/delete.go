@@ -10,8 +10,8 @@ import (
 	"path"
 
 	"github.com/containerd/containerd/mount"
-	"github.com/kata-containers/runtime/pkg/katautils"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 
 	"github.com/sirupsen/logrus"
 )

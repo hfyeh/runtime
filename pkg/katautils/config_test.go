@@ -19,10 +19,10 @@ import (
 	"syscall"
 	"testing"
 
-	ktu "github.com/kata-containers/runtime/pkg/katatestutils"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/oci"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	ktu "github.com/hfyeh/runtime/pkg/katatestutils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/oci"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 	"github.com/stretchr/testify/assert"
 )
 

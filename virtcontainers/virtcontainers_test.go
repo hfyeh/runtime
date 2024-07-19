@@ -16,10 +16,10 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	"github.com/kata-containers/runtime/virtcontainers/persist/fs"
-	"github.com/kata-containers/runtime/virtcontainers/store"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	"github.com/hfyeh/runtime/virtcontainers/persist/fs"
+	"github.com/hfyeh/runtime/virtcontainers/store"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 	"github.com/sirupsen/logrus"
 )
 

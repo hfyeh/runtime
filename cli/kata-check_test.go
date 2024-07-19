@@ -17,9 +17,9 @@ import (
 	"strings"
 	"testing"
 
-	ktu "github.com/kata-containers/runtime/pkg/katatestutils"
-	"github.com/kata-containers/runtime/pkg/katautils"
-	vc "github.com/kata-containers/runtime/virtcontainers"
+	ktu "github.com/hfyeh/runtime/pkg/katatestutils"
+	"github.com/hfyeh/runtime/pkg/katautils"
+	vc "github.com/hfyeh/runtime/virtcontainers"
 	"github.com/sirupsen/logrus"
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli"

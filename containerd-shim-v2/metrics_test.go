@@ -12,7 +12,7 @@ import (
 
 	"github.com/containerd/cgroups"
 	"github.com/containerd/containerd/namespaces"
-	vc "github.com/kata-containers/runtime/virtcontainers"
+	vc "github.com/hfyeh/runtime/virtcontainers"
 	"github.com/stretchr/testify/assert"
 )
 

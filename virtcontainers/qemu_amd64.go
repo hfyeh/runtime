@@ -8,9 +8,9 @@ package virtcontainers
 import (
 	"time"
 
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
 )
 
 type qemuAmd64 struct {
@@ -155,7 +155,7 @@ func (q *qemuAmd64) cpuModel() string {
 	cpuModel := defaultCPUModel
 
 	// VMX is not migratable yet.
-	// issue: https://github.com/kata-containers/runtime/issues/1750
+	// issue: https://github.com/hfyeh/runtime/issues/1750
 	if q.vmFactory {
 		virtLog.WithField("subsystem", "qemuAmd64").Warn("VMX is not migratable yet: turning it off")
 		cpuModel += ",vmx=off"

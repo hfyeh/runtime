@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	govmmQemu "github.com/kata-containers/govmm/qemu"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
+	govmmQemu "github.com/hfyeh/govmm/qemu"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
 	"github.com/stretchr/testify/assert"
 )
 

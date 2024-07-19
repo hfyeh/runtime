@@ -11,8 +11,8 @@ import (
 	"fmt"
 	"os"
 
-	vcTypes "github.com/kata-containers/runtime/virtcontainers/pkg/types"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	vcTypes "github.com/hfyeh/runtime/virtcontainers/pkg/types"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/sirupsen/logrus"
 	"github.com/urfave/cli"
 )

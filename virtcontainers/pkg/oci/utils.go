@@ -21,12 +21,12 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/sirupsen/logrus"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	exp "github.com/kata-containers/runtime/virtcontainers/experimental"
-	vcAnnotations "github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
-	dockershimAnnotations "github.com/kata-containers/runtime/virtcontainers/pkg/annotations/dockershim"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	exp "github.com/hfyeh/runtime/virtcontainers/experimental"
+	vcAnnotations "github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
+	dockershimAnnotations "github.com/hfyeh/runtime/virtcontainers/pkg/annotations/dockershim"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 type annotationContainerType struct {

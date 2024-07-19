@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 )
 
 // Long term, this should be made more configurable.  For now matching path

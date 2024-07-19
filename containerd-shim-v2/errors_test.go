@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"testing"
 
-	vc "github.com/kata-containers/runtime/virtcontainers/pkg/types"
+	vc "github.com/hfyeh/runtime/virtcontainers/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

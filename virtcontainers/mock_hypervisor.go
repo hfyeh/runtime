@@ -10,8 +10,8 @@ import (
 	"errors"
 	"os"
 
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 type mockHypervisor struct {

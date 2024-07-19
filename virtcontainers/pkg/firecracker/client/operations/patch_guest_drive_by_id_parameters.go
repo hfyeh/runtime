@@ -16,7 +16,7 @@ import (
 
 	strfmt "github.com/go-openapi/strfmt"
 
-	models "github.com/kata-containers/runtime/virtcontainers/pkg/firecracker/client/models"
+	models "github.com/hfyeh/runtime/virtcontainers/pkg/firecracker/client/models"
 )
 
 // NewPatchGuestDriveByIDParams creates a new PatchGuestDriveByIDParams object

@@ -14,10 +14,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	chclient "github.com/kata-containers/runtime/virtcontainers/pkg/cloud-hypervisor/client"
-	"github.com/kata-containers/runtime/virtcontainers/utils"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	chclient "github.com/hfyeh/runtime/virtcontainers/pkg/cloud-hypervisor/client"
+	"github.com/hfyeh/runtime/virtcontainers/utils"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )

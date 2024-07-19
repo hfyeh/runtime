@@ -15,9 +15,9 @@ import (
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/assert"
 
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	vcTypes "github.com/kata-containers/runtime/virtcontainers/pkg/types"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	vcTypes "github.com/hfyeh/runtime/virtcontainers/pkg/types"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 var (

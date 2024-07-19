@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/containernetworking/plugins/pkg/ns"
-	persistapi "github.com/kata-containers/runtime/virtcontainers/persist/api"
+	persistapi "github.com/hfyeh/runtime/virtcontainers/persist/api"
 )
 
 // VethEndpoint gathers a network pair and its properties.

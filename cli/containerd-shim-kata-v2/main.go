@@ -10,7 +10,7 @@ import (
 	"os"
 
 	"github.com/containerd/containerd/runtime/v2/shim"
-	"github.com/kata-containers/runtime/containerd-shim-v2"
+	"github.com/hfyeh/runtime/containerd-shim-v2"
 )
 
 const shimID = "io.containerd.kata.v2"

@@ -10,7 +10,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -12,10 +12,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/kata-containers/runtime/virtcontainers/device/manager"
-	exp "github.com/kata-containers/runtime/virtcontainers/experimental"
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	"github.com/hfyeh/runtime/virtcontainers/device/manager"
+	exp "github.com/hfyeh/runtime/virtcontainers/experimental"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 func TestSandboxRestore(t *testing.T) {

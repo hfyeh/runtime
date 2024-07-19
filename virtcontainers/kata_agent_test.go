@@ -19,24 +19,24 @@ import (
 	"syscall"
 	"testing"
 
-	vcAnnotations "github.com/kata-containers/runtime/virtcontainers/pkg/annotations"
+	vcAnnotations "github.com/hfyeh/runtime/virtcontainers/pkg/annotations"
 
 	gpb "github.com/gogo/protobuf/types"
 	specs "github.com/opencontainers/runtime-spec/specs-go"
 	"github.com/stretchr/testify/assert"
 	"google.golang.org/grpc"
 
-	aTypes "github.com/kata-containers/agent/pkg/types"
-	pb "github.com/kata-containers/agent/protocols/grpc"
-	"github.com/kata-containers/runtime/virtcontainers/device/api"
-	"github.com/kata-containers/runtime/virtcontainers/device/config"
-	"github.com/kata-containers/runtime/virtcontainers/device/drivers"
-	"github.com/kata-containers/runtime/virtcontainers/device/manager"
-	"github.com/kata-containers/runtime/virtcontainers/persist"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/mock"
-	"github.com/kata-containers/runtime/virtcontainers/pkg/rootless"
-	vcTypes "github.com/kata-containers/runtime/virtcontainers/pkg/types"
-	"github.com/kata-containers/runtime/virtcontainers/types"
+	aTypes "github.com/hfyeh/agent/pkg/types"
+	pb "github.com/hfyeh/agent/protocols/grpc"
+	"github.com/hfyeh/runtime/virtcontainers/device/api"
+	"github.com/hfyeh/runtime/virtcontainers/device/config"
+	"github.com/hfyeh/runtime/virtcontainers/device/drivers"
+	"github.com/hfyeh/runtime/virtcontainers/device/manager"
+	"github.com/hfyeh/runtime/virtcontainers/persist"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/mock"
+	"github.com/hfyeh/runtime/virtcontainers/pkg/rootless"
+	vcTypes "github.com/hfyeh/runtime/virtcontainers/pkg/types"
+	"github.com/hfyeh/runtime/virtcontainers/types"
 )
 
 var (

@@ -11,7 +11,7 @@ import (
 	"os"
 	"testing"
 
-	govmmQemu "github.com/hfyeh/govmm/qemu"
+	govmmQemu "github.com/kata-containers/govmm/qemu"
 	"github.com/hfyeh/runtime/virtcontainers/types"
 	"github.com/stretchr/testify/assert"
 )

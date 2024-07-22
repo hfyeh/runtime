@@ -47,7 +47,7 @@
   revision = "v1.4.2"
 
 [[constraint]]
-  name = "github.com/hfyeh/govmm"
+  name = "github.com/kata-containers/govmm"
   revision = "7d320e8f5dcad260c1723bda3bff21539750d51f"
 
 [[constraint]]

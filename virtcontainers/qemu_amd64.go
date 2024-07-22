@@ -10,7 +10,7 @@ import (
 
 	"github.com/hfyeh/runtime/virtcontainers/types"
 
-	govmmQemu "github.com/hfyeh/govmm/qemu"
+	govmmQemu "github.com/kata-containers/govmm/qemu"
 )
 
 type qemuAmd64 struct {

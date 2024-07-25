@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"sync"
 
-	pb "github.com/kata-containers/runtime/protocols/cache"
-	vc "github.com/kata-containers/runtime/virtcontainers"
-	"github.com/kata-containers/runtime/virtcontainers/factory/base"
+	pb "github.com/hfyeh/runtime/protocols/cache"
+	vc "github.com/hfyeh/runtime/virtcontainers"
+	"github.com/hfyeh/runtime/virtcontainers/factory/base"
 )
 
 type cache struct {
